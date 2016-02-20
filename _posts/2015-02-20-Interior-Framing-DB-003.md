@@ -1,1 +1,25 @@
----layout: defaultActivityBehaviour:- ProductivityInteriordesignAspects:- Lighting- WindowsInfluence:Reflection of windows leads to reduced productivityResearchType:Unknown: based on summaryReferences:Leijten (2002), refers to Clemens-Croome (2000)
+---
+layout: default
+ActivityBehaviour:
+- Productivity
+
+InteriordesignAspects:
+- Lighting
+- Windows
+
+
+
+Influence:
+Reflection of windows leads to reduced productivity
+
+
+
+ResearchType:
+Unknown: based on summary
+
+
+References:
+Leijten (2002), refers to Clemens-Croome (2000)
+
+
+---
