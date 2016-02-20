@@ -1,0 +1,43 @@
+<div id="entry-list">
+
+<div class="row" style="margin-bottom:10px;">
+		<input type="text" class="search form-control" placeholder="Search" />
+</div>
+
+<div class="row">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:20%;"><span class="sort" data-sort="ActivityBehaviour">Activity/Behaviour</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="InteriorDesignAspects">Interior Design Aspects</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="Influence">Influence</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="ResearchType">Research Type</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="References">References</span></th>
+		</tr>
+	</thead>
+	<tbody class="list">
+	{% for post in site.posts %}
+		<tr>
+			<td class="ActivityBehaviour">{{ post.ActivityBehaviour | array_to_sentence_string }}</td>
+			<td class="InteriorDesignAspects">{{ post.InteriorDesignAspects | array_to_sentence_string }}</td>
+			<td class="Influence">{{ post.Influence }}</td>
+			<td class="ResearchType">{{ post.ResearchType }}</td>
+			<td class="Referencess">{{ post.References }}</td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+var options = {
+  valueNames: ['ActivityBehaviour', 'InteriorDesignAspects', 'Infuence', 'ResearchType', 'References']
+};
+
+var entryList = new List('entry-list', options);
+
+</script>

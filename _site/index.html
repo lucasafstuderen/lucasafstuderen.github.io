@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset='utf-8' />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="description" content="Jekyll-DB : An easy way to use Jekyll and Github Pages as a "database"." />
+
+<title>Jekyll-DB</title>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="javascripts/list.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+ </head>
+<body style>
+<a href="https://github.com/rypan/jekyll-db"><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-red@2x.png" alt="Fork me on GitHub"></a>
+
+<div class="container">
+
+  <div class="starter-template row">
+    <h1>Jekyll-DB</h1>
+    <p class="lead">An easy way to use Jekyll and Github Pages as a "database". <br /> Items are just <a href="https://github.com/rypan/jekyll-db/tree/gh-pages/_posts">posts</a>. Type to search. Click on row headers to sort. <br /> See a <a href="output.json">JSON representation</a> of the data below.</p>
+  </div>
+
+
+<div id="entry-list">
+
+<div class="row" style="margin-bottom:10px;">
+		<input type="text" class="search form-control" placeholder="Search" />
+</div>
+
+<div class="row">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:20%;"><span class="sort" data-sort="ActivityBehaviour">Activity/Behaviour</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="InteriorDesignAspects">Interior Design Aspects</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="Influence">Influence</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="ResearchType">Research Type</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="References">References</span></th>
+		</tr>
+	</thead>
+	<tbody class="list">
+	
+		<tr>
+			<td class="ActivityBehaviour">Productivity</td>
+			<td class="InteriorDesignAspects">Lighting and Reflection</td>
+			<td class="Influence">Productivity decreases by reflection, according to 75% of the employees</td>
+			<td class="ResearchType">Telephonic interviews (200)</td>
+			<td class="Referencess">ASID (1997)</td>
+		</tr>
+	
+		<tr>
+			<td class="ActivityBehaviour">Productivity</td>
+			<td class="InteriorDesignAspects">Lighting and Reflection</td>
+			<td class="Influence">Productivity decreases by reflection, according to 75% of the employees</td>
+			<td class="ResearchType">Telephonic interviews (200)</td>
+			<td class="Referencess">ASID (1997)</td>
+		</tr>
+	
+		<tr>
+			<td class="ActivityBehaviour">Productivity and Distraction</td>
+			<td class="InteriorDesignAspects">Lighting</td>
+			<td class="Influence">9% of total experienced distraction can be explained by lighting</td>
+			<td class="ResearchType">Professional paper</td>
+			<td class="Referencess">ASID (2005)</td>
+		</tr>
+	
+		<tr>
+			<td class="ActivityBehaviour">Productivity and Distraction</td>
+			<td class="InteriorDesignAspects">Lighting</td>
+			<td class="Influence">9% of total experienced distraction can be explained by lighting</td>
+			<td class="ResearchType">Professional paper</td>
+			<td class="Referencess">ASID (2005)</td>
+		</tr>
+	
+	</tbody>
+</table>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+var options = {
+  valueNames: ['ActivityBehaviour', 'InteriorDesignAspects', 'Infuence', 'ResearchType', 'References']
+};
+
+var entryList = new List('entry-list', options);
+
+</script>
+
+
+<div class="row">
+<p><small>Built with <a href="http://jekyllrb.com/">Jekyll</a> + <a href="http://listjs.com/">ListJS</a> + <a href="http://getbootstrap.com/">Bootstrap</a>. See the <a href="http://github.com/rypan/jekyll-db">readme</a> for instruction on how to use.</small>.</p>
+</div>
+
+</div><!-- /.container -->
+
+</div>
+
+</body>
+</html>

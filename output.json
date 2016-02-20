@@ -1,0 +1,11 @@
+---
+layout: none
+---
+[{% for post in site.posts %}{
+	"ActivityBehaviour": "{{post.ActivityBehaviour | array_to_sentence_string }}",
+	"InteriorDesignAspects": "{{post.InteriorDesignAspects | array_to_sentence_string }}",
+	"Influence": "{{post.Influence}}",
+	"ResearchType": "{{post.ResearchType}}",
+	"References": "{{ post.References}}",
+	"categories": "{{post.categories}}"
+}{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
