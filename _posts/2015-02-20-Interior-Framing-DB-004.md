@@ -1,1 +1,21 @@
----layout: defaultActivityBehaviour:- ConcentrationInteriordesignAspects:- NoiseInfluence:Noise leads to decrease in concentrationResearchType:Unknown: based on summaryReferences:Leijten (2002), refers to Nemecek (1980)
+---
+layout: default
+ActivityBehaviour:
+- Concentration
+
+
+InteriordesignAspects:
+- Noise
+
+
+Influence:
+Noise leads to decrease in concentration
+
+
+ResearchType:
+Unknown: based on summary
+
+References:
+Leijten (2002), refers to Nemecek (1980)
+
+---
