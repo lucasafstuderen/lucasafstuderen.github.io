@@ -1,0 +1,1 @@
+---layout: defaultActivityBehaviour:- ConcentrationInteriordesignAspects:- NoiseInfluence:Noise leads to decrease in concentrationResearchType:Unknown: based on summaryReferences:Leijten (2002), refers to Nemecek (1980)

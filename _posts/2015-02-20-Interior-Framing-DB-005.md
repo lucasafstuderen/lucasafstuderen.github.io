@@ -1,0 +1,1 @@
+---layout: defaultActivityBehaviour:- Distraction- ConcentrationInteriordesignAspects:- Speech- NoiseInfluence:Speech is the most disturbing noise in the workplaceResearchType:ReviewReferences:Hongisto (2005)

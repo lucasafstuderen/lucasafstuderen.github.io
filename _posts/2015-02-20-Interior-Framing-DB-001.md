@@ -3,15 +3,15 @@ layout: default
 
 ActivityBehaviour:
 - Productivity
+- Distraction
 
 InteriorDesignAspects:
 - Lighting
-- Reflection
 
-Influence: Productivity decreases by reflection, according to 75% of the employees
+Influence: 9% of total experienced distraction can be explained by lighting
 
-ResearchType: Telephonic interviews (200)
+ResearchType: Professional paper
 
-References: ASID (1997)
+References: ASID (2005)
 
 ---
